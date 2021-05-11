@@ -1,5 +1,5 @@
 import Vue from 'vue';
-
+import { _AppBody } from '../../components/_AppBody';
 
 const Home = Vue.extend({
 
@@ -7,6 +7,7 @@ const Home = Vue.extend({
     return (
       <section>
         <div class="Home">
+          <_AppBody></_AppBody>
         </div>
       </section>
     )

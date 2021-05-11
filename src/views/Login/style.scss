@@ -1,0 +1,47 @@
+@import '../../assets/css/colors.scss';
+
+.Login {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background-color: $light;
+    
+    .mask {
+        position: inherit;
+        top: 0; right: 0; bottom: 0; left: 0;
+        background-image: url('./../../../public/img/backgrounds/login-background.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: blur(2px) opacity(0.45);
+    }
+
+    .faixaA, .faixaB, .faixaC {
+        position:absolute;
+        top: 0; right: 0; bottom: 0; left: 0;
+        width: 250px;
+        height: 100%;
+        margin: auto;
+        margin-left: calc(25% - 120px);
+        background-color: $primaryDark;
+    }
+    .faixaB {
+        width: 240px;
+        margin-left: calc(25% - 100px);
+        background-color: $light;
+    }
+    .faixaC {
+        width: 236px;
+        margin-left: calc(25% - 98px);
+        background-color: $primaryLight;
+    }
+
+    .panel {
+        position: inherit;
+        top: 0; right: 0; bottom: 0; left: 0;
+        margin: auto;
+        margin-left: calc(25% - 300px);
+        width: 640px;
+        height: 370px;
+        box-shadow: 0px 0px 10px #333;
+        border-radius: 30px;
+    }
+}
